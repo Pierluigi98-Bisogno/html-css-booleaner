@@ -7,18 +7,18 @@
 
 
 #header-logo {
-    padding: 20px 0;
-    text-align: left;
-    background-color: var(--blue);
-    background-image: url(/img/pattern.png);
+    background-color: #4EA0FF;
+    height: 100px;
+    padding: 10px;
+    background-image: url('/img/pattern.png');
     background-repeat: repeat;
-    position: relative;
-    display: flex;
+    background-size: 470px;
 }
+
 
 #main-logo {
     width: 200px;
     height: auto;
-    flex: ;
+    text-align:
 
 }
