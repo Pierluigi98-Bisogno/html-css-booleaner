@@ -6,9 +6,19 @@
 }
 
 
-#header {
+#header-logo {
+    padding: 20px 0;
+    text-align: left;
     background-color: var(--blue);
-    padding: 10px;
-    text-align: center;
+    background-image: url(/img/pattern.png);
+    background-repeat: repeat;
+    position: relative;
+    display: flex;
+}
+
+#main-logo {
+    width: 200px;
+    height: auto;
+    flex: ;
 
 }
