@@ -5,6 +5,19 @@
     --yellow: #ffff00;
 }
 
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    margin: 0;
+
+}
+
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
 #main-content {
     margin-left: 100px;
     margin-right: 100px;
