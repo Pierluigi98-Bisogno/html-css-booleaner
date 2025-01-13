@@ -5,6 +5,10 @@
     --yellow: #ffff00;
 }
 
+#main-content {
+    margin-left: 100px;
+    margin-right: 100px;
+}
 
 
 #header-logo {
@@ -40,6 +44,7 @@
     border-collapse: collapse;
     margin-bottom: 20px;
 
+
 }
 
 #article-table th {
@@ -53,7 +58,7 @@
 
 #article-table td {
     padding: 8px;
-    text-align: left;
+    text-align: justify;
 
 }
 
@@ -69,4 +74,30 @@
 #related-articles img {
     display: block;
     margin-bottom: 10px;
+}
+
+/* Immagini degli articoli correlati */
+#related-articles {
+    display: block;
+    gap: 10px;
+}
+
+#monitor-image,
+#graph-image {
+    width: 312px;
+    height: 208px;
+    position: relative;
+}
+
+.related-image-container {
+    position: relative;
+}
+
+.related-title {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    font-weight: bold;
+    z-index: 1;
 }
