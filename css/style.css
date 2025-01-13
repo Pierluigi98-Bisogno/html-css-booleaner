@@ -28,12 +28,6 @@
     text-decoration: none;
 }
 
-#article-images {
-    display: flex;
-    gap: 10px;
-    margin-bottom: 10px;
-
-}
 
 #article-captions {
     font-size: 0.8em;
@@ -47,9 +41,21 @@
 
 }
 
-#article-table th,
+#article-table th {
+    background-color: var(--accent);
+    font-size: small;
+    color: white;
+    text-align: left;
+    padding: 0px;
+
+}
+
 #article-table td {
     padding: 8px;
     text-align: left;
 
+}
+
+#article-table table tr:nth-child(odd) {
+    background-color: var(--light);
 }
