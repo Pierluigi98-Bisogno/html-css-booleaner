@@ -4,3 +4,11 @@
     --light: #b1e5f2;
     --yellow: #ffff00;
 }
+
+
+#header {
+    background-color: var(--blue);
+    padding: 10px;
+    text-align: center;
+
+}
