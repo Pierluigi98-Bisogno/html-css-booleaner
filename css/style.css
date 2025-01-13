@@ -6,10 +6,11 @@
 }
 
 
+
 #header-logo {
     background-color: #4EA0FF;
     height: 100px;
-    padding: 10px;
+
     background-image: url('/img/pattern.png');
     background-repeat: repeat;
     background-size: 470px;
@@ -19,7 +20,7 @@
 #main-logo {
     width: 200px;
     height: auto;
-
+    margin: 50px auto auto auto;
 
 }
 
@@ -58,4 +59,14 @@
 
 #article-table table tr:nth-child(odd) {
     background-color: var(--light);
+}
+
+#article-images img {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#related-articles img {
+    display: block;
+    margin-bottom: 10px;
 }
