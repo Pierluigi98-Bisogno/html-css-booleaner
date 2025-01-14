@@ -27,7 +27,7 @@ main {
 
     background-image: url('/img/pattern.png');
     background-repeat: repeat;
-    background-size: 470px;
+    background-size: 400px;
 }
 
 
@@ -35,6 +35,7 @@ main {
     width: 200px;
     height: auto;
     margin: 50px auto auto auto;
+    padding-left: 1rem;
 
 }
 
@@ -110,4 +111,8 @@ main {
     color: white;
     font-weight: bold;
     z-index: 1;
+}
+
+* {
+    margin: 0%;
 }
